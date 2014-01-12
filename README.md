@@ -1,2 +1,2 @@
-meteor-neat
-===========
+1. Add "packages/" as an include path for whatever sass compiler you are using
+2. `@import "neat/neat";`
