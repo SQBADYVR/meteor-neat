@@ -3,6 +3,7 @@
   "description": "A semantic, fluid grid framework on top of Sass and Bourbon",
   "homepage": "https://github.com/stevezhu/meteor-neat",
   "author": "Steve Zhu",
-  "version": "1.5.0.1",
+  "version": "1.5.0.2",
   "git": "https://github.com/stevezhu/meteor-neat.git",
+  "packages": {}
 }
