@@ -19,3 +19,12 @@
 @import "grid/media";
 @import "grid/to-deprecate";
 @import "grid/visual-grid";
+
+@mixin reset-omega($nth) {
+	&:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+	&:nth-child(#{$nth}+1) { clear: none; }
+}
+
+@mixin neat-margin($position, $span) {
+	margin-#{$position}: flex-gutter(container-span($span));
+}
